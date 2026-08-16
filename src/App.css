@@ -17,3 +17,12 @@ html, body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+@media (max-width: 768px) {
+  .app {
+    background-image: url('/vertical_homepage.png');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
